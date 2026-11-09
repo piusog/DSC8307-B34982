@@ -32,16 +32,7 @@ Place the following in `data/`:
 - `bank-additional-full.csv` (semicolon-delimited), from the UCI Bank Marketing archive: https://archive.ics.uci.edu/dataset/222/bank+marketing
 - `Concrete_Data.csv`, from the UCI Concrete Compressive Strength dataset: https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength
 
-If absent, notebooks attempt to download official UCI archives and cache the CSV locally. Internet access is needed for the automatic fallback. **Both supplied datasets are included in `data/`, and both notebooks have been executed successfully with results embedded.** Confirm redistribution rights and required attribution for each dataset before making the repository public.
-
-## Evaluation design
-Training: 60%; validation: 20%; held-out test: 20%. Baselines and cross-validation are performed; model selection and classification threshold use validation data, never the held-out test. Preprocessing lives inside pipelines. The included notebooks have already been executed against the supplied CSV files; rerun them in a clean environment to verify reproducibility.
-
-## Before submission
-1. Review the executed outputs and empirical findings; understand and verify each methodological choice.
-2. Re-run both notebooks in a clean environment and verify all outputs match within numerical tolerance.
-3. Confirm dataset redistribution terms and attribution before committing public data.
-4. Confirm the repository is public and submit its URL through Moodle; comply with university academic integrity and disclosure rules.
+If absent, notebooks attempt to download official UCI archives and cache the CSV locally. Internet access is needed for the automatic fallback. **Both datasets are in `data/`, and both notebooks ran successfully with results embedded. **** Confirm redistribution rights and required attribution for each dataset before making the repository public.
 
 ## Attribution
 Moro, S., Cortez, P., & Rita, P. (2014), *Decision Support Systems*, 62, 22–31. https://doi.org/10.1016/j.dss.2014.03.001  
