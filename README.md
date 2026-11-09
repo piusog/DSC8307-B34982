@@ -1,6 +1,5 @@
 # DSC8307  Data Mining, Modeling and Analytics: Advent 2026
 
-**Student:** Pius OGWAL  
 **Access number:** B34982  
 **Programme:** Master of Science in Data Science and Analytics, Year 2, Semester 1
 
