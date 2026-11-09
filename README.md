@@ -31,9 +31,7 @@ jupyter nbconvert --to notebook --execute project2_concrete_strength.ipynb --out
 Place the following in `data/`:
 - `bank-additional-full.csv` (semicolon-delimited), from the UCI Bank Marketing archive: https://archive.ics.uci.edu/dataset/222/bank+marketing
 - `Concrete_Data.csv`, from the UCI Concrete Compressive Strength dataset: https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength
-
-If absent, notebooks attempt to download official UCI archives and cache the CSV locally. Internet access is needed for the automatic fallback. **Both datasets are in `data/`, and both notebooks ran successfully with results embedded. **** Confirm redistribution rights and required attribution for each dataset before making the repository public.
-
+  
 ## Attribution
 Moro, S., Cortez, P., & Rita, P. (2014), *Decision Support Systems*, 62, 22–31. https://doi.org/10.1016/j.dss.2014.03.001  
 Yeh, I.-C. (1998), *Cement and Concrete Research*, 28(12), 1797–1808. https://doi.org/10.1016/S0008-8846(98)00165-3  
