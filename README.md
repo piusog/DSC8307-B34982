@@ -1,4 +1,4 @@
-# DSC8307 — Data Mining, Modeling and Analytics | Advent 2026
+# DSC8307 — Data Mining, Modeling and Analytics: Advent 2026
 
 **Student:** Pius OGWAL  
 **Access number:** B34982  
@@ -54,15 +54,3 @@ UCI Machine Learning Repository and scikit-learn documentation.
 |---|---|
 | Bank classification | 41,188 rows; subscription prevalence 11.27%; gradient boosting test PR-AUC 0.4826, ROC-AUC 0.8081; validation cost-sensitive threshold 0.175 under illustrative 1:5 FP:FN costs |
 | Concrete regression | 1,030 source rows, 25 exact duplicates removed before splitting; gradient boosting test MAE 3.431 MPa, RMSE 5.025 MPa, R² 0.915 |
-
-**Interpretation caveat:** Cost assumptions are illustrative; causal effects cannot be inferred from predictive correlations. These results are conditional on the specified split, model settings and datasets, not a guarantee of future performance.
-
-## Assessment mapping
-- **35% Methodological rigor:** data dictionaries, audit, leakage controls, preprocessing rationale, model assumptions and references.
-- **40% Critical evaluation:** baselines, cross-validation, validation rankings, test metrics, threshold sensitivity, bootstrap intervals and residual/age-shift diagnostics.
-- **25% Reproducibility/communication:** two executable notebooks with plots, interpretation, documented data, requirements and reproduction steps.
-
-## Final answer locations
-- Project 1: Sections 5–6 provide completed empirical interpretation, ranked classification approaches, threshold trade-offs, limitations and a final assignment-answer matrix.
-- Project 2: Sections 5–6 provide the completed causality answer, numerical model comparison, residual interpretation, engineering recommendations and final assignment-answer matrix.
-- A separate Word report is not required by the assignment; each notebook contains the requested short report and analysis.
